@@ -152,6 +152,6 @@ app.get("/text/sentiment", (req,res) => {
         });
     });});
 
-let server = app.listen(8080, () => {
-    console.log('Listening', server.address().port)
-})
+    let server = 
+    app.listen(8080, () => {     
+        console.log('Listening', server.address().port) }) 
